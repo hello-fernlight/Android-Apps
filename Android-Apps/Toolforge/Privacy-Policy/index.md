@@ -2,57 +2,60 @@
 
 **Effective date: September 26, 2026**
 
-Toolforge is an Android utility application developed by **Fernlight**. Toolforge provides tools for working with photos, videos, audio, PDFs, GIFs, archives, and other files.
+Toolforge is an Android utility application developed by **Fernlight**. Toolforge provides tools for working with photos, videos, audio, PDFs, GIFs, archives, and other supported files.
 
-This Privacy Policy explains what information Toolforge collects, how that information is used, and how your files and personal information are handled.
+This Privacy Policy explains what information Toolforge accesses, collects, uses, and shares; how that information is handled; and how your files and personal information are protected.
 
 ## 1. Information We Collect
 
 Toolforge does not require you to create an account.
 
-Depending on how you use the application, Toolforge may process or collect limited technical, usage, and purchase-related information through third-party services used by the application.
+Toolforge is designed as a local-first application. Most files selected for processing are processed directly on your Android device. However, Toolforge uses certain third-party services for analytics and purchase/subscription management, which may process limited technical, usage, and purchase-related information.
 
 ### Analytics information
 
-Toolforge uses **PostHog** to collect anonymous or pseudonymous usage analytics. This helps us understand how the application is used and improve its reliability and features.
+Toolforge uses **PostHog** for application analytics and product improvement.
 
-Analytics events may include information such as:
+Depending on the analytics configuration, analytics information may include:
 
 * Which Toolforge tool was opened or used
+* Which application screen was viewed
 * Whether a processing operation completed, failed, or was cancelled
 * Processing duration
-* Which application screen was viewed
 * Application version
-* Whether a Pro purchase process was started, completed, or failed
-* Product type associated with a purchase event
+* Information about interactions with application features
+* Information associated with Pro purchase events
+* Pseudonymous identifiers or technical information used to distinguish analytics events
 
-Toolforge does not intentionally send the contents of the files you process to PostHog.
+Toolforge does not intentionally send the contents of files that you process to PostHog.
 
-Toolforge's PostHog analytics are hosted using PostHog's European-hosted service.
+Analytics are used to understand application usage, diagnose problems, measure feature usage, and improve Toolforge.
 
 ### Purchase and subscription information
 
-Toolforge uses **RevenueCat** to manage in-app purchases, subscriptions, and Pro entitlements.
+Toolforge uses **Google Play Billing** and **RevenueCat** to provide and manage optional Pro purchases and subscriptions.
 
-RevenueCat may receive information necessary to identify the app customer and manage their purchase or subscription status. Depending on the configuration of the Toolforge application and RevenueCat SDK, this may include:
+Purchase-related information may include information necessary to verify and maintain your purchase entitlement, such as:
 
-* An anonymous or app-specific user identifier
-* Device and operating-system information
-* Application-related technical information
-* Purchase and subscription information
-* Google Play purchase information or purchase tokens
-* Subscription and entitlement status
-* Information such as the last time the application was used
+* Purchase or subscription status
+* Product or entitlement information
+* Purchase or transaction information
+* Subscription renewal or expiration information
+* Purchase timestamps
+* Google Play purchase information or tokens used for purchase verification
+* A pseudonymous RevenueCat App User ID or similar technical identifier
 
-RevenueCat may process this information to validate purchases, manage subscription status, restore purchases, and determine which Pro entitlements are available to the user.
+RevenueCat may also receive limited technical information about the device or application necessary to provide its purchase and entitlement-management services.
 
-Toolforge does not intentionally send the contents of files processed by the application to RevenueCat.
+Toolforge does not intentionally send your photos, videos, audio files, PDFs, documents, or other processed file contents to RevenueCat.
 
-RevenueCat does not receive your payment card, bank account, UPI credentials, or other payment credentials directly from Toolforge. Payment credentials are handled by Google Play.
+Toolforge does not intentionally collect your name, email address, telephone number, payment card number, bank account information, UPI credentials, or similar payment credentials through RevenueCat unless a future version explicitly introduces functionality requiring such information.
+
+RevenueCat documents that its SDK can process end-user technical information and transaction information, including Google purchase tokens, and that anonymous App User IDs may be generated when an application does not provide its own user identifier.
 
 ## 2. Files and Media
 
-Toolforge is designed as a **local-first application**.
+Toolforge is designed as a local-first application.
 
 Files that you select for processing, including:
 
@@ -66,32 +69,37 @@ Files that you select for processing, including:
 
 are processed directly on your Android device whenever the relevant feature supports local processing.
 
-Toolforge does **not** upload your selected files to a Toolforge server for processing.
+Toolforge does not upload your selected files to a Toolforge server for processing.
 
-The contents of your files are not intentionally included in Toolforge analytics, purchase, or subscription events.
+The contents of your files are not intentionally included in Toolforge analytics, RevenueCat, or purchase-related events.
+
+Some Android system functionality or third-party libraries may access information necessary to perform a requested operation, but Toolforge does not intentionally transmit the contents of your files to the developer.
 
 ## 3. Access to Files
 
 When you select a file using Android's file or media selection interface, Android grants Toolforge access to the item you selected.
 
-Toolforge only accesses files that are necessary for the operation you request.
+Toolforge accesses files when necessary to perform the operation you request.
 
 Toolforge does not intentionally access your entire photo library, file storage, contacts, messages, or other personal content without your interaction with the application.
+
+If a feature requires access to a particular file or media item, that access is used to provide the requested functionality.
 
 ## 4. File Metadata
 
 Some Toolforge features read metadata contained within files in order to perform requested operations.
 
-For example, image and media metadata may include information such as:
+Depending on the file type, metadata may include:
 
 * File format
+* File size
 * Dimensions
 * Creation or modification information
-* Camera information
+* Camera or device information
 * Location metadata, if present
 * Other embedded technical metadata
 
-Metadata processing occurs locally on your device.
+Metadata processing occurs locally on your device when the relevant feature supports local processing.
 
 Toolforge does not intentionally transmit the metadata contained in your files to the developer, PostHog, or RevenueCat.
 
@@ -104,8 +112,9 @@ Toolforge uses internet connectivity for certain application services, including
 * Analytics through PostHog
 * Purchase and subscription management through RevenueCat
 * Google Play Billing and related purchase functionality
+* Other services that may be introduced in future versions where required for a particular feature
 
-Internet connectivity is not required for the actual local processing of files when the particular tool does not otherwise require an online service.
+Internet connectivity is not required for local file processing when the particular tool does not otherwise require an online service.
 
 Your files are not uploaded to Toolforge's servers for processing.
 
@@ -113,68 +122,81 @@ Your files are not uploaded to Toolforge's servers for processing.
 
 Toolforge uses PostHog for product analytics.
 
-PostHog may process information associated with analytics events in accordance with its own privacy policy and terms.
+PostHog may process information associated with analytics events in accordance with its own privacy policy and applicable terms.
 
-The analytics implementation is designed to measure application usage rather than collect the contents of your files.
+Toolforge's analytics implementation is intended to measure application usage rather than collect the contents of your files.
 
-For more information, please refer to:
+PostHog analytics may involve pseudonymous identifiers or technical information associated with analytics events. Toolforge does not intentionally use PostHog to identify you by your name, email address, telephone number, or other direct contact information.
 
-https://posthog.com/privacy
+PostHog may retain analytics information according to the configuration of the Toolforge PostHog project and PostHog's applicable policies.
 
 ## 7. Purchases and Google Play Billing
 
 Toolforge offers optional Pro features through Google Play Billing.
 
-The current application offers:
+The current application offers Pro purchase options that may include:
 
 * A yearly Pro subscription
 * A lifetime Pro purchase
 
-Purchases are made through **Google Play** and subscription and entitlement information is managed with **RevenueCat**.
+Purchases are initiated and processed through Google Play.
 
-Toolforge does not directly process or store your credit card number, debit card number, UPI credentials, bank account information, or other payment credentials.
+Toolforge does not directly process or store your:
 
-Payment information is handled by Google Play according to Google's applicable terms and privacy policies.
+* Credit card number
+* Debit card number
+* UPI credentials
+* Bank account information
+* Payment card security codes
+* Other payment credentials
 
-RevenueCat receives purchase-related information necessary to validate transactions and manage Pro subscription and entitlement status.
+Payment credentials are handled by Google Play and its payment systems according to Google's applicable terms and privacy practices.
 
-For more information, please refer to Google's privacy policy:
+Toolforge may receive purchase-related information through Google Play Billing that is necessary to determine whether a purchase or subscription is active and to provide the corresponding Pro features.
 
-https://policies.google.com/privacy
+## 8. RevenueCat
 
-## 8. RevenueCat — Subscription and Entitlement Management
+Toolforge uses **RevenueCat** as a third-party service for purchase and subscription management.
 
-Toolforge uses **RevenueCat** to manage and verify Pro purchases, subscriptions, and entitlements.
+RevenueCat helps Toolforge:
 
-RevenueCat acts as a service provider for Toolforge's purchase and subscription functionality. Information sent to RevenueCat may include technical information about the device and application, an App User ID or anonymous App User ID, and transaction information such as Google Play purchase information or purchase tokens.
+* Verify purchases and subscriptions
+* Manage Pro entitlements
+* Determine whether Pro features should be available
+* Maintain subscription status
+* Provide a consistent purchase and entitlement-management system
 
-RevenueCat uses this information to:
+Depending on the RevenueCat SDK configuration, RevenueCat may process information such as:
 
-* Validate purchases
-* Maintain purchase and subscription records
-* Determine subscription and entitlement status
-* Restore purchases
-* Provide Pro entitlement information to Toolforge
-* Support subscription management and related functionality
+* Purchase history
+* Subscription and entitlement information
+* Google Play purchase information or purchase tokens
+* Application/device technical information
+* Last-seen or usage-related technical information required by the service
+* A pseudonymous or anonymous App User ID
+* Other limited metadata necessary to provide the service
 
-Toolforge does not intentionally send files, file contents, file metadata, contacts, messages, or other personal files to RevenueCat.
+Toolforge does not intentionally provide RevenueCat with the contents of your photos, videos, audio files, PDFs, documents, or other files.
 
-Because Toolforge does not require an account, RevenueCat may use an anonymous App User ID when no user identifier is provided by the application. RevenueCat documents that its SDK can generate an anonymous identifier for apps that do not provide their own user identifier.
+Toolforge does not intentionally provide RevenueCat with your name, email address, phone number, payment credentials, or other direct contact information.
 
-For more information about RevenueCat's privacy practices, please refer to:
+RevenueCat acts as a service provider/data processor for customer applications when processing end-user information on their behalf. RevenueCat states that end-user transaction information can include Google purchase tokens and that its SDK can generate anonymous App User IDs when an app does not provide its own user ID.
 
-https://www.revenuecat.com/privacy
+RevenueCat encrypts data in transit and uses cloud infrastructure to store customer data.
 
 ## 9. Pro Entitlements
 
-Toolforge uses RevenueCat and Google Play purchase information to determine whether Pro features should be available.
+Toolforge stores certain billing and application state locally on your device so that the application can determine whether Pro features should be available.
 
-The application may also store limited billing and application state locally on your device, such as:
+This may include information such as:
 
 * Whether a lifetime purchase is active
 * Whether a subscription is active
-* Whether a subscription is set to renew
-* Purchase or entitlement state required for application functionality
+* Whether a subscription is entitled to renew
+* Purchase or subscription timestamps
+* Local entitlement state
+
+RevenueCat and Google Play may also maintain purchase and entitlement information on their systems.
 
 Toolforge does not store your payment credentials.
 
@@ -187,6 +209,7 @@ These may include:
 * Theme preference
 * Color scheme preference
 * Local Pro entitlement state
+* Daily usage information
 * Other application configuration or usage state required for the application to function
 
 These preferences are stored using Android's local application storage mechanisms.
@@ -195,9 +218,9 @@ These preferences are stored using Android's local application storage mechanism
 
 Some advanced Toolforge features have daily usage limits for free users.
 
-The relevant daily usage counter is maintained locally on the device.
+The relevant daily usage information is maintained locally on the device.
 
-Toolforge does not need to upload the contents of the files processed as part of this usage-limit system.
+Toolforge does not need to upload the contents of files processed as part of this usage-limit system.
 
 ## 12. Data Retention and Deletion
 
@@ -207,13 +230,15 @@ Files created by Toolforge are stored in locations selected or permitted by Andr
 
 You can delete generated files using your device's file-management functionality.
 
-You can also uninstall Toolforge to remove its local application data, subject to Android's backup and system behavior.
+You can uninstall Toolforge to remove its local application data, subject to Android's backup, storage, and system behavior.
 
-Analytics data collected through PostHog may be retained according to PostHog's applicable policies and the configuration of the Toolforge PostHog project.
+Analytics information collected through PostHog may be retained according to the configuration of the Toolforge PostHog project and PostHog's applicable retention policies.
 
-Purchase and subscription information processed by RevenueCat may be retained according to RevenueCat's applicable policies and the configuration of the Toolforge RevenueCat project.
+Purchase and subscription information processed through Google Play and RevenueCat may be retained according to their applicable policies, contractual requirements, fraud-prevention requirements, legal obligations, and service configuration.
 
-Purchase records associated with Google Play are handled according to Google's systems, policies, and applicable retention requirements.
+Because Toolforge does not require user accounts, there is no Toolforge account containing personal files that users need to delete.
+
+If you wish to request deletion of information that may be associated with your use of Toolforge's third-party services, you may contact Fernlight at **[hello.fernlight@gmail.com](mailto:hello.fernlight@gmail.com)**. Where applicable, Fernlight may use the relevant third-party service's available deletion mechanisms to process such a request.
 
 ## 13. Data Sharing
 
@@ -221,33 +246,43 @@ Toolforge does not sell or rent your personal information.
 
 Toolforge does not share the contents of your processed files with advertisers or data brokers.
 
-Limited information may be processed by third-party service providers when required for services used by the application, including:
+Limited information may be processed by third-party service providers when required to provide services used by the application, including:
 
-* **PostHog** — application analytics
-* **RevenueCat** — purchase, subscription, and entitlement management
-* **Google Play** — application distribution and payment processing
+* **PostHog** — application analytics and product usage measurement
+* **RevenueCat** — purchase and subscription management
+* **Google Play** — application distribution, billing, and purchase processing
 
-These providers process information according to their own applicable policies.
+These providers process information according to their applicable privacy policies, terms, and service agreements.
+
+Toolforge may also disclose information where reasonably necessary to comply with applicable law, respond to lawful requests, protect the security of the application or users, prevent fraud or abuse, or protect the rights and property of Fernlight.
 
 ## 14. Advertising
 
-Toolforge is currently designed as an **ad-free application**.
+Toolforge is currently designed as an ad-free application.
 
 The current version does not use advertising networks or display third-party advertisements.
 
+Toolforge does not sell user information to advertisers.
+
 ## 15. Children's Privacy
 
-Toolforge does not intentionally collect personal information from children.
+Toolforge is not specifically directed toward children.
 
-The application does not require users to create an account and does not intentionally collect names, addresses, phone numbers, contacts, or similar personal information.
+Toolforge does not intentionally collect names, addresses, telephone numbers, contacts, or similar direct personal information from children.
 
-If you believe that a child has provided personal information to Toolforge in a manner that should not have occurred, please contact us using the contact information provided below.
+Because Toolforge does not require an account and is primarily designed for local file processing, the application does not intentionally establish user profiles for children.
+
+If you believe that a child has provided personal information to Toolforge in a manner that should not have occurred, please contact us using the information provided below.
 
 ## 16. Security
 
 Toolforge uses Android's application sandbox and platform security mechanisms to protect locally stored application data.
 
-The local-processing design also reduces the need to transmit user files to remote servers.
+The local-processing design reduces the need to transmit user files to remote servers.
+
+Information transmitted to third-party services is sent using appropriate transport security mechanisms provided by those services.
+
+RevenueCat states that its application data is secured in transit using TLS.
 
 However, no method of electronic storage or transmission is completely secure. Users should maintain appropriate backups of important files and use the security features provided by their Android device.
 
@@ -259,37 +294,19 @@ The current version of Toolforge uses the following third-party services:
 
 Used for application analytics and product usage measurement.
 
-Website:
-
-https://posthog.com/
-
-Privacy policy:
-
-https://posthog.com/privacy
+PostHog's privacy practices are described in its Privacy Policy.
 
 ### RevenueCat
 
-Used for purchase, subscription, and Pro entitlement management.
+Used for purchase and subscription management, including Pro entitlements and purchase verification.
 
-Website:
-
-https://www.revenuecat.com/
-
-Privacy policy:
-
-https://www.revenuecat.com/privacy
+RevenueCat's privacy practices are described in its Privacy Policy.
 
 ### Google Play
 
-Used for application distribution and in-app purchases.
+Used for application distribution, Google Play Billing, and purchase processing.
 
-Website:
-
-https://play.google.com/
-
-Privacy policy:
-
-https://policies.google.com/privacy
+Google's privacy practices are described in Google's Privacy Policy.
 
 Toolforge may add, remove, or change third-party services in future versions. If such changes materially affect how user information is handled, this Privacy Policy will be updated accordingly.
 
@@ -304,10 +321,24 @@ You can also:
 * Control Android permissions and access provided to the application through Android settings
 * Manage Google Play subscriptions through your Google account
 * Stop using Toolforge at any time
+* Contact Fernlight regarding privacy or data-handling questions
 
-Because analytics, purchase, and subscription services are provided through third-party services, certain information may be subject to those providers' applicable privacy controls and policies.
+Because analytics and purchase services are provided partly through third-party providers, certain information processed by those providers may also be subject to their respective privacy controls and policies.
 
-## 19. Changes to This Privacy Policy
+## 19. No User Account
+
+Toolforge does not currently require or provide user account creation.
+
+As a result:
+
+* Toolforge does not maintain a user profile containing your personal files
+* There is no Toolforge account password
+* There is no Toolforge account database containing your uploaded files
+* You do not need to create an account to use the application's local file-processing features
+
+Purchase and subscription entitlements may nevertheless be associated with pseudonymous identifiers used by RevenueCat and/or Google Play for purchase management.
+
+## 20. Changes to This Privacy Policy
 
 We may update this Privacy Policy when Toolforge's functionality, third-party services, data practices, or applicable legal requirements change.
 
@@ -315,27 +346,30 @@ When material changes are made, the effective date at the top of this policy wil
 
 You should periodically review this page for the latest version of the Privacy Policy.
 
-## 20. Contact
+## 21. Contact
 
-If you have questions about this Privacy Policy or Toolforge's privacy practices, please contact the developer through the contact information provided on the official Toolforge Google Play listing or here:
+If you have questions about this Privacy Policy or Toolforge's privacy practices, please contact:
 
-**[hello.fernlight@gmail.com](mailto:hello.fernlight@gmail.com)**
+**Fernlight**
+**Email:** [hello.fernlight@gmail.com](mailto:hello.fernlight@gmail.com)
 
-## 21. Summary
+## 22. Summary
 
 In summary:
 
-* Toolforge is designed to process your files locally on your Android device.
+* Toolforge is designed to process supported files locally on your Android device.
 * Your selected files are not uploaded to a Toolforge server for processing.
+* Toolforge does not intentionally send the contents of your files to PostHog or RevenueCat.
 * Toolforge uses PostHog for limited application usage analytics.
-* Toolforge uses RevenueCat for purchase, subscription, and Pro entitlement management.
-* Toolforge uses Google Play Billing for purchases.
-* RevenueCat may receive purchase/subscription information and limited technical information required to manage Pro entitlements.
-* Toolforge does not intentionally send your file contents or file metadata to PostHog or RevenueCat.
-* Toolforge does not sell your personal information.
+* Toolforge uses RevenueCat for purchase and subscription management.
+* Toolforge uses Google Play Billing for Pro purchases and subscriptions.
+* RevenueCat may process purchase history, transaction information, pseudonymous identifiers, and limited technical information required for purchase and entitlement management.
+* Toolforge does not sell or rent your personal information.
 * Toolforge does not currently display advertisements.
-* Toolforge does not require an account.
+* Toolforge does not require a user account.
 * Locally generated files remain under your control.
-* Payment credentials are handled by Google Play rather than stored by Toolforge.
+* Toolforge does not store your payment credentials.
+* Google Play handles payment credentials through its payment systems.
+* You can contact Fernlight regarding privacy and data-handling questions.
 
 **Last updated: September 26, 2026**
