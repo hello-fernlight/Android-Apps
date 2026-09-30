@@ -3,7 +3,7 @@
   "codes": [
     {
       "id": "toolforge30",
-      "sha256": "2f45f6f0bb1aea95814254a56e4932c1c71b30d3dd1e8e19aefd75891e4b3b03",
+      "sha256": "72fa65fb851ef5b49153531913133aabb19350749f1948b8521e0d112ef64090",
       "duration_days": 30,
       "enabled": true
     }
