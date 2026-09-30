@@ -5,7 +5,7 @@
       "id": "toolforge30",
       "sha256": "2f45f6f0bb1aea95814254a56e4932c1c71b30d3dd1e8e19aefd75891e4b3b03",
       "duration_days": 30,
-      "enabled": true
+      "enabled": false
     }
   ]
 }
