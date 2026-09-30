@@ -1,11 +1,11 @@
 {
-  "enabled": true,
+  "enabled": false,
   "codes": [
     {
       "id": "toolforge30",
       "sha256": "72fa65fb851ef5b49153531913133aabb19350749f1948b8521e0d112ef64090",
       "duration_days": 30,
-      "enabled": false
+      "enabled": true
     }
   ]
 }
