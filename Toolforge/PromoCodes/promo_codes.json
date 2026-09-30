@@ -2,7 +2,7 @@
   "enabled": true,
   "codes": [
     {
-      "id": "toolforge-review-30",
+      "id": "toolforge30",
       "sha256": "be54789ffd9999cf8d5a071d90dfe4be71f34c2664851139ec8410f832cd5a42",
       "duration_days": 30
     }
